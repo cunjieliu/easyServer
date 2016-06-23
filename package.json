@@ -1,0 +1,29 @@
+{
+  "name": "easyserver",
+  "version": "0.1.0",
+  "description": "a easy server for static file",
+  "main": "index.js",
+  "dependencies": {
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunjieliu/easyServer.git"
+  },
+  "keywords": [
+    "lite-server",
+    "serve-static",
+    "static",
+    "server"
+  ],
+  "author": "cunjieliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cunjieliu/easyServer/issues"
+  },
+  "homepage": "https://github.com/cunjieliu/easyServer#readme"
+}
