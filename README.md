@@ -7,15 +7,19 @@ a easy server for static file
 
 ###How to use
 ```javascript
-npm install easyserver
+npm install easyserver --save-dev
 
 npm install
 ```
 
+in server.js
 ```javascript
 easyserver('yourStaticFilePath');
+```
 
-node easyserver
+run like this
+```javascript
+node server
 ```
 
 ###configuration
