@@ -1,7 +1,21 @@
 # easyServer
 a easy server for static file
 
+###
+
+
+
 ###How to use
+
+```javascript
+easyserver('yourStaticFilePath');
+
+node easyserver
+```
+
+###configuration
+1. port. (default:3333)
+2. headers. 
 
 ```javascript
 var easyserver= require('easyserver');
@@ -13,5 +27,6 @@ easyserver('../static', {
 	}
 })
 
+// start aother server
 // easyserver('../static')
 ```
