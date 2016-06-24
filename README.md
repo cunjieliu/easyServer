@@ -6,6 +6,11 @@ a easy server for static file
 
 
 ###How to use
+```javascript
+npm install easyserver
+
+npm install
+```
 
 ```javascript
 easyserver('yourStaticFilePath');
