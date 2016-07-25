@@ -1,5 +1,5 @@
 {
-  "name": "easyserver",
+  "name": "easy-static-server",
   "version": "0.1.0",
   "description": "a easy server for static file",
   "main": "index.js",
