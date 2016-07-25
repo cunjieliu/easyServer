@@ -7,14 +7,15 @@ a easy server for static file
 
 ###How to use
 ```javascript
-npm install easyserver --save-dev
+npm install easy-static-server --save-dev
 
 npm install
 ```
 
 in server.js
 ```javascript
-easyserver('yourStaticFilePath');
+var server= require('easy-static-server');
+server('yourStaticFilePath');
 ```
 
 run like this
@@ -27,9 +28,9 @@ node server
 2. headers. 
 
 ```javascript
-var easyserver= require('easyserver');
+var server= require('easy-static-server');
 
-easyserver('../static', {
+server('../static', {
 	port: 9999,
 	headers: {
 		'Access-Control-Allow-Origin': '*'
@@ -37,5 +38,5 @@ easyserver('../static', {
 })
 
 // start aother server
-// easyserver('../static')
+// server('../static')
 ```
