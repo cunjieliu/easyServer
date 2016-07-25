@@ -5,7 +5,7 @@ var fs = require('fs');
 var mime = require('mime');
 
 
-function staticServer(root, options){
+function easyServer(root, options){
 
 	var opt = options || {};
 
@@ -96,4 +96,4 @@ function staticServer(root, options){
 	console.info("start server at port: " + port);
 }
 
-module.exports = staticServer;
+module.exports = easyServer;
