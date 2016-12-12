@@ -69,7 +69,7 @@ function easyServer(root, options){
 
 				var s = fs.createReadStream(file);
 
-				var chunkTemp;
+				var chunkTemp = "";
 				s.on('data', function(chunk){
 					// console.log(chunk.length)
 					//res.write(chunk);
